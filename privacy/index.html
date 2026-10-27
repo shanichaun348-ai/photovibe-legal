@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>PhotoVibe — Privacy Policy · PhotoVibe</title>
+<meta name="description" content="PhotoVibe — Privacy Policy for the PhotoVibe app (ai.photovibe.app).">
+<style>
+:root{--bg:#fbf9f4;--fg:#1f1b16;--muted:#6a6158;--rule:#e3dccf;--accent:#8a6a1d;--code:#f1ebdd;--link:#5c4a12}
+@media (prefers-color-scheme:dark){:root{--bg:#161310;--fg:#ece5d8;--muted:#a79d8f;--rule:#332c23;--accent:#d8b45a;--code:#262019;--link:#e3c678;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;padding:0 max(16px,env(safe-area-inset-left)) 48px max(16px,env(safe-area-inset-right))}
+header.site{max-width:760px;margin:0 auto;padding:20px 0 8px;display:flex;flex-wrap:wrap;gap:8px 20px;align-items:baseline;border-bottom:1px solid var(--rule)}
+header.site .brand{font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);text-decoration:none}
+header.site nav a{color:var(--muted);text-decoration:none;font-size:14px}
+header.site nav a[aria-current]{color:var(--fg);font-weight:600}
+main{max-width:760px;margin:0 auto}
+h1{font-size:clamp(26px,5vw,34px);line-height:1.15;margin:28px 0 8px}
+h2{font-size:21px;margin:36px 0 10px;padding-top:12px;border-top:1px solid var(--rule)}
+h3{font-size:17px;margin:22px 0 6px}
+p.meta{color:var(--muted);font-size:14px}
+a{color:var(--link)}
+code{background:var(--code);padding:1px 5px;border-radius:4px;font-size:.92em}
+ul{padding-left:22px}
+li{margin:4px 0}
+hr{border:0;border-top:1px solid var(--rule);margin:28px 0}
+.table-wrap{overflow-x:auto;margin:12px 0}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{text-align:left;vertical-align:top;padding:8px 10px;border-bottom:1px solid var(--rule)}
+th{color:var(--muted);font-weight:600}
+footer{max-width:760px;margin:48px auto 0;color:var(--muted);font-size:13px;border-top:1px solid var(--rule);padding-top:16px}
+</style>
+</head>
+<body>
+<header class="site"><a class="brand" href="../">PhotoVibe</a><nav><a href="../privacy/" aria-current="page">Privacy Policy</a><a href="../terms/">Terms of Service</a><a href="../delete-account/">Delete your account</a></nav></header>
+<main>
+<h1 id="photovibe-privacy-policy">PhotoVibe — Privacy Policy</h1>
+<p class="meta"><strong>Last updated:</strong> 2026-10-28<br><strong>Effective:</strong> 2026-10-28<br><strong>Contact:</strong> <a href="mailto:support@photovibe.ai">support@photovibe.ai</a></p>
+<p>This Privacy Policy explains what personal information PhotoVibe ("we", "us", the app <code>ai.photovibe.app</code>) collects, why we collect it, how long we keep it, and the choices you have. It applies to the PhotoVibe mobile application and the backend services it depends on.</p>
+<p>By using PhotoVibe you agree to this policy. If you do not agree, please uninstall the app.</p>
+<hr>
+<h2 id="1-what-we-collect">1. What we collect</h2>
+<h3 id="1-1-account-information">1.1 Account information</h3>
+<p>You can sign up with a phone number or with an email address. Depending on which you choose we collect:</p>
+<ul><li><strong>Phone number</strong> — if you sign in with a one-time SMS code. The number is sent to our authentication provider (Supabase) and its SMS delivery partner solely to deliver the code and identify your account. We never see or store the code itself after it is verified.</li><li><strong>Email address</strong> — if you sign in with email; also used for account recovery.</li><li><strong>Password</strong> — only for email sign-in; stored as a salted hash by Supabase. We never see your plain-text password.</li><li><strong>Display name</strong> (optional) — shown only inside your own copy of the app.</li></ul>
+<h3 id="1-2-jewellery-images-you-upload">1.2 Jewellery images you upload</h3>
+<ul><li>Images you submit for AI generation are sent to our backend, then forwarded to two third-party services (see Section 3) for processing.</li><li>We do <strong>not</strong> retain the image bytes server-side after the job completes. A SHA-256 hash of the image and a metadata row (jewellery type, aspect ratio, model used, duration, status) are stored for abuse investigation and quota accounting.</li><li>The generated result image is streamed back to your device and is <strong>not</strong> stored on our servers.</li></ul>
+<h3 id="1-3-generated-content-history">1.3 Generated content history</h3>
+<ul><li>PhotoVibe saves the generated image on <strong>your device</strong> in app-private storage so you can revisit it from the History screen. We have no copy of this image.</li><li>Deleting an item from History also deletes the file from your device.</li></ul>
+<h3 id="1-4-usage-data">1.4 Usage data</h3>
+<ul><li>Per-user generation counts (a lifetime count on the free plan, a monthly count on paid plans) plus a rolling 24-hour count, used to enforce your plan's image allowance.</li><li>If you subscribe to a paid plan, the Google Play purchase token and subscription status, so we can unlock your plan and keep it in sync with renewals and cancellations. We never see your card or UPI details; Google Play handles payment.</li><li>Per-request structured logs (request ID, status, duration, user ID). Logs are kept for 30 days for operational debugging and abuse investigation.</li><li>We do <strong>not</strong> use analytics SDKs that profile your behaviour across apps. We may add a privacy-preserving product analytics provider in the future; if we do, this policy will be updated and you will be asked to consent on next launch.</li></ul>
+<h3 id="1-5-crash-reports">1.5 Crash reports</h3>
+<ul><li>If a crash occurs, an anonymised stack trace may be sent to our error monitoring provider (Sentry). The trace does not contain the contents of your images, your email, or your password. We strip authorization headers before sending.</li></ul>
+<h3 id="1-6-what-we-do-not-collect">1.6 What we do NOT collect</h3>
+<ul><li>Your contact list, your camera roll outside the images you explicitly pick, your location, your microphone, your other apps, your device IMEI/IMSI, your advertising ID.</li></ul>
+<hr>
+<h2 id="2-how-we-use-what-we-collect">2. How we use what we collect</h2>
+<div class="table-wrap"><table><thead><tr><th>Purpose</th><th>Data used</th></tr></thead><tbody><tr><td>Authenticate you and let you sign in</td><td>Phone number or email, hashed password or one-time code</td></tr><tr><td>Generate the jewellery photoshoots you request</td><td>Image bytes (passed through, not retained)</td></tr><tr><td>Enforce your plan's image allowance and daily cap</td><td>User ID, generation counters</td></tr><tr><td>Activate and maintain a paid subscription</td><td>Google Play purchase token, subscription status</td></tr><tr><td>Detect and prevent abuse (NSFW uploads, prompt injection, quota fraud)</td><td>Image hash, audit logs</td></tr><tr><td>Operational debugging</td><td>Request logs (30-day retention)</td></tr><tr><td>Respond to support requests</td><td>Email</td></tr></tbody></table></div>
+<p>We do <strong>not</strong> sell your data. We do <strong>not</strong> share your data with advertisers or data brokers.</p>
+<hr>
+<h2 id="3-third-parties-that-process-your-data">3. Third parties that process your data</h2>
+<p>PhotoVibe is a thin client over best-of-breed AI services. We send a minimum-necessary subset of data to each:</p>
+<div class="table-wrap"><table><thead><tr><th>Provider</th><th>Data sent</th><th>Purpose</th><th>Their privacy policy</th></tr></thead><tbody><tr><td><strong>Supabase</strong> (Tokyo region) and its SMS partner</td><td>Phone number or email, hashed password, generation counters, audit metadata</td><td>Authentication, one-time SMS codes, database</td><td><a href="https://supabase.com/privacy">https://supabase.com/privacy</a></td></tr><tr><td><strong>Replicate</strong> (USA)</td><td>Image bytes for the duration of a generation</td><td>AI inference (Nano Banana model, NSFW classifier)</td><td><a href="https://replicate.com/privacy">https://replicate.com/privacy</a></td></tr><tr><td><strong>remove.bg</strong> (Vienna, EU)</td><td>Image bytes for the duration of a background-removal call (only if the on-device model fails)</td><td>Subject cutout fallback</td><td><a href="https://www.remove.bg/privacy">https://www.remove.bg/privacy</a></td></tr><tr><td><strong>Sentry</strong> (USA, EU)</td><td>Anonymised stack traces, request IDs</td><td>Crash monitoring</td><td><a href="https://sentry.io/privacy/">https://sentry.io/privacy/</a></td></tr><tr><td><strong>Google Play</strong></td><td>Standard Play Store telemetry; subscription purchase tokens</td><td>App distribution, subscription billing</td><td><a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></td></tr></tbody></table></div>
+<p>We have <strong>no advertising SDKs</strong> in the app.</p>
+<hr>
+<h2 id="4-ai-generated-content-disclosure">4. AI-generated content disclosure</h2>
+<p>Every image PhotoVibe produces is generated by an AI model. We:</p>
+<ul><li>Add a visible <strong>"AI-GENERATED"</strong> label burned into every output image.</li><li>Run NSFW moderation on both the image you upload AND the image the AI produces, rejecting either if it crosses the safety threshold.</li><li>Give you an in-app <strong>Report this image</strong> button for outputs you believe are misleading or harmful. Reports are stored and reviewed.</li></ul>
+<p>AI output is best-effort, not photography. <strong>Do not list a generated image as the actual product for sale without confirming the jewellery in the result matches the piece you uploaded.</strong> PhotoVibe is not liable for mismatched listings.</p>
+<hr>
+<h2 id="5-how-long-we-keep-your-data">5. How long we keep your data</h2>
+<div class="table-wrap"><table><thead><tr><th>Data</th><th>Retention</th></tr></thead><tbody><tr><td>Phone number or email + auth row</td><td>Until you delete your account</td></tr><tr><td>Profile, quota counters, subscription status</td><td>Until you delete your account</td></tr><tr><td>Generation audit metadata (hash + status)</td><td>12 months, then purged</td></tr><tr><td>Reports you submitted</td><td>24 months</td></tr><tr><td>Operational logs</td><td>30 days</td></tr><tr><td>Sentry crash reports</td><td>90 days</td></tr><tr><td><strong>Image bytes</strong></td><td><strong>Not retained</strong> — passed through to providers, never stored on our servers</td></tr></tbody></table></div>
+<hr>
+<h2 id="6-your-rights">6. Your rights</h2>
+<p>You have the right to:</p>
+<ul><li><strong>Access</strong> the data we hold about you — use the in-app <strong>Settings → Email support</strong> flow, or <code>GET /me/export</code> returns a JSON download of everything.</li><li><strong>Correct</strong> inaccurate data — email <a href="mailto:support@photovibe.ai">support@photovibe.ai</a>.</li><li><strong>Delete</strong> your account and all associated data — use <strong>Settings → Delete my account</strong> in the app, or follow the steps at <a href="https://shanichaun348-ai.github.io/photovibe-legal/delete-account/">https://shanichaun348-ai.github.io/photovibe-legal/delete-account/</a> if you no longer have the app installed. The deletion is irreversible and removes your profile, quota counters, audit metadata, reports, and authentication row. We complete the deletion within 30 days; technical backups containing residual references may take up to 90 days to fully purge.</li><li><strong>Withdraw consent</strong> — uninstall the app and use the Delete my account flow.</li><li><strong>Object to processing</strong> or <strong>port your data</strong> — email <a href="mailto:support@photovibe.ai">support@photovibe.ai</a>.</li></ul>
+<p>Residents of the EU/EEA have rights under the GDPR. Residents of California have rights under the CCPA. Indian residents have rights under the Digital Personal Data Protection Act 2023. These rights are honoured the same way for everyone: through the in-app flows above and the support email.</p>
+<hr>
+<h2 id="7-security">7. Security</h2>
+<ul><li>All traffic between the app and our backend uses HTTPS (TLS 1.2+). The app's network security configuration disables cleartext traffic in production.</li><li>Authentication tokens are stored in the device's encrypted storage (Android Keystore / iOS Keychain), not in plain-text storage.</li><li>Our backend rejects images that don't pass header validation, exceeds 8 MB, or has dimensions over 25 megapixels.</li><li>We log redact authorization headers and secret env vars from our structured logs.</li></ul>
+<p>No system is 100% secure. If you discover a vulnerability please email <a href="mailto:security@photovibe.ai">security@photovibe.ai</a> — we'll respond within 72 hours.</p>
+<hr>
+<h2 id="8-children">8. Children</h2>
+<p>PhotoVibe is not directed to children under the age of 13 (or under 16 in the EU). We do not knowingly collect data from anyone under those ages. If you are a parent and believe your child has signed up, email <a href="mailto:support@photovibe.ai">support@photovibe.ai</a> and we will delete the account.</p>
+<hr>
+<h2 id="9-international-transfers">9. International transfers</h2>
+<p>Your data may be processed in countries other than your own (notably the USA, the EU, and Japan — see Section 3). Where required by law (e.g. for EU users) we rely on Standard Contractual Clauses with our subprocessors.</p>
+<hr>
+<h2 id="10-changes-to-this-policy">10. Changes to this policy</h2>
+<p>When we make material changes to this policy we will:</p>
+<ul><li>Update the "Last updated" date at the top.</li><li>Notify you in-app the next time you open PhotoVibe.</li><li>Where required, ask for fresh consent before the change takes effect.</li></ul>
+<hr>
+<h2 id="11-how-to-contact-us">11. How to contact us</h2>
+<ul><li><strong>General privacy questions / data subject requests:</strong> <a href="mailto:support@photovibe.ai">support@photovibe.ai</a></li><li><strong>Security disclosures:</strong> <a href="mailto:security@photovibe.ai">security@photovibe.ai</a></li><li><strong>Postal address:</strong> <em>[insert your registered business address before publication]</em></li></ul>
+</main>
+<footer>© 2026 PhotoVibe · App id ai.photovibe.app</footer>
+</body>
+</html>
