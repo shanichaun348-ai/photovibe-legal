@@ -1,10 +1,10 @@
 # PhotoVibe — Terms of Service
 
-**Last updated:** 2026-10-28
-**Effective:** 2026-10-28
-**Contact:** support@photovibe.ai
+**Last updated:** 2026-11-19
+**Effective:** 2026-11-19
+**Contact:** openmalo.apps@gmail.com
 
-These Terms govern your use of the PhotoVibe mobile application and the related backend services. By creating an account or using the app you agree to these Terms. If you do not agree, do not use PhotoVibe.
+These Terms are an agreement between you and OpenMalo Technologies, Rajkot, India ("PhotoVibe", "we", "us"), and govern your use of the PhotoVibe mobile application and the related backend services. By creating an account or using the app you agree to these Terms. If you do not agree, do not use PhotoVibe.
 
 ---
 
@@ -95,9 +95,7 @@ You agree to indemnify and hold PhotoVibe harmless from any claim, loss, or expe
 
 ## 14. Governing law and disputes
 
-These Terms are governed by the laws of India. Disputes will be resolved exclusively in the courts of Mumbai, India, except where consumer-protection law in your jurisdiction requires otherwise.
-
-*[Replace governing law with your actual jurisdiction before publication.]*
+These Terms are governed by the laws of India. Disputes will be resolved exclusively in the courts of Rajkot, Gujarat, India, except where consumer-protection law in your jurisdiction requires otherwise.
 
 ## 15. Changes to these Terms
 
@@ -108,6 +106,6 @@ We may update these Terms. When we make material changes:
 
 ## 16. Contact
 
-Questions about these Terms: support@photovibe.ai
-Legal notices: legal@photovibe.ai
-Postal address: *[insert your registered business address before publication]*
+Questions about these Terms: openmalo.apps@gmail.com
+Legal notices: openmalo.apps@gmail.com
+Postal address: OpenMalo Technologies, 608 Star Chamber, Harihar Chowk, Rajkot 360001, Gujarat, India

@@ -165,7 +165,7 @@ function index() {
 <h1>PhotoVibe legal pages</h1>
 <p>PhotoVibe turns a single jewellery photo into an on-model product shoot. These pages govern the Android app with id <code>ai.photovibe.app</code>.</p>
 <ul>${links}</ul>
-<p class="meta">Support: support@photovibe.ai</p>
+<p class="meta">Support: openmalo.apps@gmail.com</p>
 </main>
 </body>
 </html>

@@ -1,10 +1,10 @@
 # PhotoVibe — Privacy Policy
 
-**Last updated:** 2026-10-28
-**Effective:** 2026-10-28
-**Contact:** support@photovibe.ai
+**Last updated:** 2026-11-19
+**Effective:** 2026-11-19
+**Contact:** openmalo.apps@gmail.com
 
-This Privacy Policy explains what personal information PhotoVibe ("we", "us", the app `ai.photovibe.app`) collects, why we collect it, how long we keep it, and the choices you have. It applies to the PhotoVibe mobile application and the backend services it depends on.
+This Privacy Policy explains what personal information PhotoVibe ("we", "us", the app `ai.photovibe.app`), operated by OpenMalo Technologies, Rajkot, India, collects, why we collect it, how long we keep it, and the choices you have. It applies to the PhotoVibe mobile application and the backend services it depends on.
 
 By using PhotoVibe you agree to this policy. If you do not agree, please uninstall the app.
 
@@ -105,10 +105,10 @@ AI output is best-effort, not photography. **Do not list a generated image as th
 You have the right to:
 
 - **Access** the data we hold about you — use the in-app **Settings → Email support** flow, or `GET /me/export` returns a JSON download of everything.
-- **Correct** inaccurate data — email support@photovibe.ai.
+- **Correct** inaccurate data — email openmalo.apps@gmail.com.
 - **Delete** your account and all associated data — use **Settings → Delete my account** in the app, or follow the steps at https://shanichaun348-ai.github.io/photovibe-legal/delete-account/ if you no longer have the app installed. The deletion is irreversible and removes your profile, quota counters, audit metadata, reports, and authentication row. We complete the deletion within 30 days; technical backups containing residual references may take up to 90 days to fully purge.
 - **Withdraw consent** — uninstall the app and use the Delete my account flow.
-- **Object to processing** or **port your data** — email support@photovibe.ai.
+- **Object to processing** or **port your data** — email openmalo.apps@gmail.com.
 
 Residents of the EU/EEA have rights under the GDPR. Residents of California have rights under the CCPA. Indian residents have rights under the Digital Personal Data Protection Act 2023. These rights are honoured the same way for everyone: through the in-app flows above and the support email.
 
@@ -121,13 +121,13 @@ Residents of the EU/EEA have rights under the GDPR. Residents of California have
 - Our backend rejects images that don't pass header validation, exceeds 8 MB, or has dimensions over 25 megapixels.
 - We log redact authorization headers and secret env vars from our structured logs.
 
-No system is 100% secure. If you discover a vulnerability please email security@photovibe.ai — we'll respond within 72 hours.
+No system is 100% secure. If you discover a vulnerability please email openmalo.apps@gmail.com — we'll respond within 72 hours.
 
 ---
 
 ## 8. Children
 
-PhotoVibe is not directed to children under the age of 13 (or under 16 in the EU). We do not knowingly collect data from anyone under those ages. If you are a parent and believe your child has signed up, email support@photovibe.ai and we will delete the account.
+PhotoVibe is not directed to children under the age of 13 (or under 16 in the EU). We do not knowingly collect data from anyone under those ages. If you are a parent and believe your child has signed up, email openmalo.apps@gmail.com and we will delete the account.
 
 ---
 
@@ -148,6 +148,6 @@ When we make material changes to this policy we will:
 
 ## 11. How to contact us
 
-- **General privacy questions / data subject requests:** support@photovibe.ai
-- **Security disclosures:** security@photovibe.ai
-- **Postal address:** *[insert your registered business address before publication]*
+- **General privacy questions / data subject requests:** openmalo.apps@gmail.com
+- **Security disclosures:** openmalo.apps@gmail.com
+- **Postal address:** OpenMalo Technologies, 608 Star Chamber, Harihar Chowk, Rajkot 360001, Gujarat, India

@@ -2,7 +2,7 @@
 
 **Last updated:** 2026-10-28
 **App:** PhotoVibe (`ai.photovibe.app`)
-**Contact:** support@photovibe.ai
+**Contact:** openmalo.apps@gmail.com
 
 You can delete your PhotoVibe account and the data linked to it at any time. Deletion is permanent and cannot be undone.
 
@@ -18,7 +18,7 @@ Your account is removed immediately and you are signed out.
 
 ## Option 2 — Without the app
 
-If you have already uninstalled the app, send an email to support@photovibe.ai from the email address linked to your account, or include the phone number you signed up with. Use the subject line **Delete my account**. We will confirm your identity by replying to that address or sending a one-time code to that number, then delete the account within 7 days of verification.
+If you have already uninstalled the app, send an email to openmalo.apps@gmail.com from the email address linked to your account, or include the phone number you signed up with. Use the subject line **Delete my account**. We will confirm your identity by replying to that address or sending a one-time code to that number, then delete the account within 7 days of verification.
 
 ---
 
